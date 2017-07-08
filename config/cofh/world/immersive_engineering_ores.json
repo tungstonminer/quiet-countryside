@@ -1,0 +1,25 @@
+{
+	"dependencies": "immersiveengineering",
+
+	"populate": {
+
+		"uranium": {
+			"distribution": "uniform",
+			"generator": {
+                "type": "cluster",
+				"block": {"name": "immersiveengineering:ore", "metadata": 5},
+				"material": "stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 48,
+            "min-height": 48,
+            "max-height": 256,
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "SNOWY"}]
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		}
+    }
+}

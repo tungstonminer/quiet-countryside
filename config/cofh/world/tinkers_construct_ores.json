@@ -1,0 +1,42 @@
+{
+	"dependencies": "tconstruct",
+
+	"populate": {
+
+		"ardite_cloud": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": {"name": "tconstruct:ore", "variant": "ardite"},
+				"material": "netherrack",
+				"cluster-size": 1
+			},
+			"cluster-count": 64,
+			"center-height": 42,
+            "spread": 42,
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "NETHER"}]
+            },
+			"dimension": "all"
+		},
+
+		"cobalt_cloud": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": {"name": "tconstruct:ore", "variant": "cobalt"},
+				"material": "netherrack",
+				"cluster-size": 1
+			},
+			"cluster-count": 64,
+			"center-height": 84,
+            "spread": 42,
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "NETHER"}]
+            },
+			"dimension": "all"
+		}
+    }
+}

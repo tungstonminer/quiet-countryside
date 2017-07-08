@@ -1,0 +1,23 @@
+earthworks:block_chalk:0
+chisel:marbleextra:7
+chisel:limestoneextra:7
+railcraft:ore_metal_poor:0 # iron
+railcraft:ore_metal_poor:1 # gold
+railcraft:ore_metal_poor:2 # copper
+railcraft:ore_metal_poor:3 # tin
+railcraft:ore_metal_poor:4 # lead
+railcraft:ore_metal_poor:5 # silver
+railcraft:ore_metal_poor:6 # nickel
+immersiveengineering:ore:1 # bauxite
+immersiveengineering:ore:5 # uranium
+
+
+bedrock         0
+quarter         16
+half            32
+3/4             48
+sea level       64 -----
+high plains     96
+hills           128
+tall hills      160
+mountains       200+

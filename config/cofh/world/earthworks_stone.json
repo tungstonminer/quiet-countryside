@@ -1,0 +1,47 @@
+{
+	"dependencies": "earthworks",
+
+	"populate": {
+
+		"ocean_chalk": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_chalk",
+				"material": ["stone", "dirt", "grass", "sand"],
+                "cluster-size": 96,
+			},
+            "chunk-chance": 4,
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [{ "type": "dictionary", "entry": "OCEAN"}]
+			},
+			"dimension": { "restriction": "whitelist", "value": [ 0 ] }
+		},
+
+		"plains_chalk": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_chalk",
+				"material": ["stone", "dirt", "grass", "sand"],
+                "cluster-size": 96,
+			},
+            "chunk-chance": 4,
+			"cluster-count": 1,
+			"min-height": 64,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+                    { "type": "dictionary", "entry": "PLAINS"},
+                    { "type": "dictionary", "entry": "BEACH"}
+                ]
+			},
+			"dimension": { "restriction": "whitelist", "value": [ 0 ] }
+		}
+    }
+}

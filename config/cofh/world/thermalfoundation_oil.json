@@ -1,0 +1,100 @@
+{
+	"dependencies": "thermalfoundation",
+
+	"populate": {
+
+		"oil_sand": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "thermalfoundation:ore_fluid",
+				"material": [ "sand", "sandstone", "stone" ],
+				"cluster-size": 16
+			},
+			"cluster-count": 10,
+			"chunk-chance": 10,
+			"min-height": 64,
+			"max-height": 256,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{ "type": "dictionary", "entry": "SANDY" }
+				]
+			},
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"oil_shale": {
+			"distribution": "underfluid",
+			"generator": {
+                "type": "cluster",
+				"block": [
+					{ "name": "thermalfoundation:ore_fluid", "metadata": 1, "weight": 80 },
+					{ "name": "coal_ore", "weight": 20 }
+				],
+                "material": [ "gravel", "stone" ],
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"chunk-chance": 16,
+            "fluid": "water",
+			"material": [ "gravel", "stone" ],
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [{ "type": "dictionary", "entry": "OCEAN"}]
+			},
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"oil_sand_geode": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{ "name": "thermalfoundation:ore_fluid", "metadata": 0, "weight": 80 },
+					{ "name": "minecraft:sand", "weight": 20 }
+				],
+				"material": [ "sand", "sandstone", "stone" ],
+				"hollow": "true",
+				"filler": "thermalfoundation:fluid_crude_oil",
+				"crust": "minecraft:sandstone"
+			},
+			"cluster-count": 10,
+			"chunk-chance": 16,
+			"min-height": 32,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [{ "type": "dictionary", "entry": "SANDY" }]
+			},
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"oil_shale_geode": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{ "name": "thermalfoundation:ore_fluid", "metadata": 1, "weight": 80 },
+					{ "name": "gravel", "weight": 20 }
+				],
+				"material": [ "gravel", "stone" ],
+				"hollow": "true",
+				"filler": "thermalfoundation:fluid_crude_oil",
+				"crust": "stone"
+			},
+			"cluster-count": 10,
+			"chunk-chance": 16,
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": { "type": "dictionary", "entry": "OCEAN" }
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		}
+	}
+}

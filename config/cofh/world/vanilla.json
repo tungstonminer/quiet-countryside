@@ -1,0 +1,196 @@
+{
+	"populate": {
+
+		"diorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": { "name": "stone", "properties": { "variant": "diorite" }},
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"granite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": { "name": "stone", "properties": { "variant": "granite" }},
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 8,
+			"min-height": 32,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"andesite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "andesite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 8,
+			"min-height": 96,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 64,
+			"min-height": 48,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+                            "WET", "SWAMP"
+						]
+					}
+				]
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"gold_vein": {
+			"distribution": "gaussian",
+			"generator": {
+                "type": "large-vein",
+				"block": "gold_ore",
+				"material": ["stone", "sandstone"],
+				"cluster-size": 16,
+                "sparse": true
+			},
+			"cluster-count": 1,
+            "chunk-chance": 8,
+			"center-height": 16,
+            "spread": 8,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"diamond": {
+			"distribution": "underfluid",
+			"generator": {
+                "type": "cluster",
+				"block": "diamond_ore",
+                "material": ["stone", "sandstone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 32,
+            "fluid": "lava",
+			"material": ["stone", "sandstone"],
+			"retrogen": false,
+			"biome": {
+                "restriction": "blacklist",
+                "value": [{ "type": "dictionary", "entry": "JUNGLE" }]
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"lapis": {
+			"distribution": "underfluid",
+			"generator": {
+                "type": "cluster",
+				"block": "lapis_ore",
+                "material": ["stone", "gravel", "sand"],
+				"cluster-size": 1
+			},
+			"cluster-count": 8,
+            "fluid": "water",
+            "material": ["stone", "gravel", "sand"],
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [{ "type": "dictionary", "entry": "OCEAN" }]
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"emerald": {
+			"distribution": "underfluid",
+			"generator": {
+                "type": "cluster",
+				"block": "emerald_ore",
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 32,
+            "fluid": "lava",
+			"material": "stone",
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [{ "type": "dictionary", "entry": "JUNGLE" }]
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"silverfish": {
+			"distribution": "uniform",
+			"generator": {
+				"block": { "name": "monster_egg", "properties": { "variant": "stone" }},
+				"material": ["stone", "sandstone"],
+				"cluster-size": 9
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [{ "type": "dictionary", "entry": "JUNGLE" }]
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"quartz": {
+			"distribution": "uniform",
+			"generator": {
+                "type": "stalagmite",
+				"block": "quartz_ore",
+				"material": "minecraft:netherrack",
+                "gen-body": ["air", "lava"],
+                "min-height": 2,
+                "height-variance": 6,
+                "gen-size": 1,
+                "size-variance": 2
+			},
+            "chunk-chance": 8,
+			"cluster-count": 8,
+            "min-height": 0,
+            "max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [{ "type": "dictionary", "entry": "NETHER" }]
+			},
+			"dimension": "all"
+		}
+	}
+}

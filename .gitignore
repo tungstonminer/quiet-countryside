@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+TooManyGravesData
+asm
+crash-reports
+fonts
+journeymap
+llibrary
+local
+logs
+mods.disabled
+resourcepacks
+saves
+scripts
+usercache.json
+usernamecache.json

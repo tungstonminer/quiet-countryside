@@ -1,0 +1,31 @@
+{
+	"dependencies": "minefactoryreloaded",
+
+	"populate": {
+
+		"rubber_trees": {
+			"distribution": "surface",
+			"generator": {
+                "type": "small-tree",
+				"material": ["dirt", "grass"],
+                "follow-terrain": true,
+                "block": "minefactoryreloaded:rubberwood_log",
+                "leaves": {"name": "minefactoryreloaded:rubberwood_leaves", "metadata": 4},
+                "min-height": 4,
+                "height-variance": 2,
+                "tree-checks": true,
+                "relaxed-growth": true,
+                "water-loving": true,
+                "leaf-variance": true
+			},
+            "chunk-chance": 4,
+			"cluster-count": 3,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [{ "type": "dictionary", "entry": "WET"}]
+			},
+			"dimension": { "restriction": "whitelist", "value": [ 0 ] }
+		}
+    }
+}

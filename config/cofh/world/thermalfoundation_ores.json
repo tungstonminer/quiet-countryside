@@ -1,0 +1,128 @@
+{
+	"dependencies": "thermalfoundation",
+
+	"populate": {
+
+		"aluminum_cloud": {
+			"distribution": "gaussian",
+			"generator": {
+                "type": "cluster",
+				"block": {"name": "thermalfoundation:ore", "metadata": 4},
+				"material": ["stone", "sandstone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 16,
+			"center-height": 48,
+            "spread": 8,
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "HOT"}]
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"aluminum_vein": {
+			"distribution": "gaussian",
+			"generator": {
+                "type": "large-vein",
+				"block": {"name": "thermalfoundation:ore", "metadata":4},
+				"material": ["stone", "sandstone"],
+				"cluster-size": 96,
+                "sparse": true
+			},
+			"cluster-count": 1,
+            "chunk-chance": 4,
+			"center-height": 48,
+            "spread": 8,
+			"retrogen": false,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "HOT"}]
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"copper_redstone_vein": {
+			"distribution": "gaussian",
+			"generator": {
+                "type": "large-vein",
+				"block": [
+                    {"name": "thermalfoundation:ore", "metadata":0, "weight": 80},
+                    {"name": "redstone_ore", "weight": 20}
+                ],
+				"material": ["stone", "sandstone"],
+				"cluster-size": 256,
+                "sparse": true
+			},
+			"cluster-count": 1,
+            "chunk-chance": 6,
+			"center-height": 64,
+            "spread": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"iron_nickle_platinum_vein": {
+			"distribution": "gaussian",
+			"generator": {
+                "type": "large-vein",
+				"block": [
+                    {"name": "iron_ore", "weight": 79},
+                    {"name":"thermalfoundation:ore", "metadata":5, "weight":19}
+                    {"name":"thermalfoundation:ore", "metadata":6, "weight":2}
+                ],
+				"material": ["stone", "sandstone"],
+				"cluster-size": 256,
+                "sparse": true
+			},
+			"cluster-count": 1,
+            "chunk-chance": 6,
+			"center-height": 128,
+            "spread": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"lead_silver_vein": {
+			"distribution": "gaussian",
+			"generator": {
+                "type": "large-vein",
+				"block": [
+                    {"name":"thermalfoundation:ore", "metadata":2, "weight":15},
+                    {"name":"thermalfoundation:ore", "metadata":3, "weight":85}
+                ],
+				"material": ["stone", "sandstone"],
+				"cluster-size": 32,
+                "sparse": true
+			},
+			"cluster-count": 3,
+            "chunk-chance": 4,
+			"center-height": 24,
+            "spread": 8,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		}
+
+		"tin_vein": {
+			"distribution": "gaussian",
+			"generator": {
+                "type": "large-vein",
+				"block": { "name": "thermalfoundation:ore", "metadata": 1 },
+				"material": ["stone", "sandstone"],
+				"cluster-size": 32,
+                "sparse": true
+			},
+			"cluster-count": 3,
+            "chunk-chance": 4,
+			"center-height": 48,
+            "spread": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+	}
+}

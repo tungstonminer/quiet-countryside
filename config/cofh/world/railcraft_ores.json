@@ -1,0 +1,129 @@
+{
+	"dependencies": "railcraft",
+
+	"populate": {
+
+		"abyssal_geode": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{ "name": "railcraft:generic", "metadata": 8, "weight": 95 },
+					{ "name": "railcraft:ore", "metadata": 4, "weight": 3 },
+					{ "name": "railcraft:ore", "metadata": 3, "weight": 1 },
+					{ "name": "railcraft:ore", "metadata": 2, "weight": 1 }
+				],
+				"material": [ "gravel", "stone", "water", "lava" ],
+				"hollow": "true",
+				"filler": "air",
+				"crust": "stone"
+			},
+			"cluster-count": 4,
+			"chunk-chance": 4,
+			"min-height": 0,
+			"max-height": 8,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [{ "type": "dictionary", "entry": "OCEAN"}]
+			},
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"copper_cloud": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": { "name": "railcraft:ore_metal_poor", "metadata": 2 },
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 32,
+			"center-height": 64,
+            "spread": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"iron_cloud": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": { "name": "railcraft:ore_metal_poor", "metadata": 0 },
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 16,
+			"center-height": 128,
+            "spread": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"gold_cloud": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": { "name": "railcraft:ore_metal_poor", "metadata": 1 },
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 6,
+			"center-height": 16,
+            "spread": 8,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+        "saltpeter": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "railcraft:worldlogic",
+                "material": "bedrock",
+                "cluster-size": 1
+            },
+            "chunk-chance": 4,
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 1,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {"type": "dictionary", "entry": "SANDY"}
+            },
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+        },
+
+		"silver_cloud": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": [
+                    { "name": "railcraft:ore_metal_poor", "metadata": 4, "weight": 85 },
+                    { "name": "railcraft:ore_metal_poor", "metadata": 5, "weight": 15 }
+                ],
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 12,
+            "center-height": 24,
+            "spread": 8,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		},
+
+		"tin_cloud": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": { "name": "railcraft:ore_metal_poor", "metadata": 3 },
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 32,
+			"center-height": 48,
+            "spread": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
+		}
+    }
+}
