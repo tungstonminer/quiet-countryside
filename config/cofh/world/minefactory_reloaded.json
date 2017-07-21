@@ -4,6 +4,7 @@
 	"populate": {
 
 		"rubber_trees": {
+            "enabled": false,
 			"distribution": "surface",
 			"generator": {
                 "type": "small-tree",

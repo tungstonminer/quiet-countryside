@@ -105,7 +105,7 @@
 			"retrogen": false,
 			"biome": "all",
 			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
-		}
+		},
 
 		"tin_vein": {
 			"distribution": "gaussian",
@@ -123,6 +123,6 @@
 			"retrogen": false,
 			"biome": "all",
 			"dimension": { "restriction": "blacklist", "value": [ -1, 1 ] }
-		},
+		}
 	}
 }

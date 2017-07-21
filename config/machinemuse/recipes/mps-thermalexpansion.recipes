@@ -59,20 +59,20 @@
   },
   {
     "ingredients" : [
-      [ { "oredictName" : "ingotCopper" }, { "oredictName" : "ingotCopper" }, { "oredictName" : "ingotCopper" } ],
-      [ { "oredictName" : "ingotSilver" }, { "oredictName" : "ingotSilver" }, { "oredictName" : "ingotSilver" } ],
-      [ { "oredictName" : "ingotCopper" }, { "oredictName" : "ingotCopper" }, { "oredictName" : "ingotCopper" } ]
+        [ null, {"oredictName": "wireElectrum"}, null ],
+        [{"oredictName": "wireElectrum"}, {"oredictName": "oc:circuitChip1"}, {"oredictName": "wireElectrum"}],
+        [ null, {"oredictName": "wireElectrum"}, null ]
     ],
     "result" : {
       "oredictName" : "componentWiring",
-      "quantity" : 8
+      "quantity" : 4
     }
   },
   {
     "ingredients" : [
-      [  { "oredictName" : "componentWiring" }, { "oredictName" : "ingotInvar" }, { "oredictName" : "componentWiring" } ],
-      [  { "oredictName" : "componentWiring" }, { "oredictName" : "ingotInvar" }, { "oredictName" : "componentWiring" } ],
-      [  { "oredictName" : "componentWiring" }, { "oredictName" : "ingotInvar" }, { "oredictName" : "componentWiring" } ]
+      [  { "oredictName" : "wireCopper" }, { "oredictName" : "ingotInvar" }, { "oredictName" : "wireCopper" } ],
+      [  { "oredictName" : "wireCopper" }, { "oredictName" : "ingotInvar" }, { "oredictName" : "wireCopper" } ],
+      [  { "oredictName" : "wireCopper" }, { "oredictName" : "ingotInvar" }, { "oredictName" : "wireCopper" } ]
     ],
     "result" : {
       "oredictName" : "componentSolenoid"
@@ -90,9 +90,9 @@
   },
   {
     "ingredients" : [
-      [  null, { "oredictName" : "blockGlassHardened" }, {"oredictName" : "blockGlassHardened" } ],
-      [  {"oredictName" : "blockGlassHardened" }, {"oredictName" : "blockGlassHardened" }, { "oredictName" : "componentSolenoid" } ],
-      [  {"oredictName" : "blockGlassHardened" }, null, { "registryName" : "thermalfoundation:material", "meta": 324 }]
+        [ null, { "registryName" : "thermalfoundation:material", "meta": 324 }, { "registryName" : "thermalfoundation:material", "meta": 324 } ],
+        [ { "registryName" : "thermalfoundation:material", "meta": 324 }, { "registryName" : "thermalfoundation:material", "meta": 324 }, { "oredictName" : "componentSolenoid" } ],
+        [ { "registryName" : "thermalfoundation:material", "meta": 324 }, null, { "oredictName" : "componentSolenoid" } ]
     ],
     "result" : {
       "oredictName" : "componentGliderWing"
@@ -110,8 +110,8 @@
   },
   {
     "ingredients" : [
-      [ { "oredictName" : "ingotSilver" }, { "registryName" : "thermalexpansion:capacitor", "meta": 1 }, { "oredictName" : "ingotGold" } ],
-      [ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ]
+      [ null, { "registryName" : "thermalexpansion:capacitor", "meta": 1 }, null ],
+      [ null, { "oredictName" : "componentWiring" }, null ]
     ],
     "result" : {
       "oredictName" : "componentLVCapacitor"
@@ -119,8 +119,8 @@
   },
   {
     "ingredients" : [
-      [ { "oredictName" : "componentWiring" }, { "registryName" : "thermalexpansion:capacitor", "meta" : 2 }, { "oredictName" : "componentWiring" } ],
-      [ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ]
+      [ null, { "registryName" : "thermalexpansion:capacitor", "meta": 2 }, null ],
+      [ null, { "oredictName" : "componentWiring" }, null ]
     ],
     "result" : {
       "oredictName" : "componentMVCapacitor"
@@ -128,9 +128,8 @@
   },
   {
     "ingredients" : [
-      [ { "oredictName" : "componentWiring" }, { "registryName" : "thermalexpansion:capacitor", "meta" : 3 }, { "oredictName" : "componentWiring" } ],
-      [ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ]
-
+      [ null, { "registryName" : "thermalexpansion:capacitor", "meta": 3 }, null ],
+      [ null, { "oredictName" : "componentWiring" }, null ]
     ],
     "result" : {
       "oredictName" : "componentHVCapacitor"
@@ -138,8 +137,8 @@
   },
   {
     "ingredients" : [
-      [ { "oredictName" : "componentWiring" }, { "registryName" : "thermalexpansion:capacitor", "meta" : 4 }, { "oredictName" : "componentWiring" } ],
-      [ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ]
+      [ null, { "registryName" : "thermalexpansion:capacitor", "meta": 4 }, null ],
+      [ null, { "oredictName" : "componentWiring" }, null ]
     ],
     "result" : {
       "oredictName" : "componentEVCapacitor"
@@ -147,9 +146,9 @@
   },
   {
     "ingredients" : [
-      [ { "registryName" : "minecraft:wool" }, { "registryName" : "minecraft:wool" }, { "registryName" : "minecraft:wool" } ],
-      [ { "registryName" : "minecraft:string" }, null, { "registryName" : "minecraft:string" } ],
-      [ { "registryName" : "thermalfoundation:rockwool", "meta" : 7 }, null, { "registryName" : "thermalfoundation:rockwool", "meta" : 7 } ]
+        [ { "oredictName": "fabricHemp" }, { "oredictName": "fabricHemp" }, { "oredictName": "fabricHemp" } ],
+        [ { "oredictName": "wireSteel" }, null, { "oredictName": "wireSteel" } ],
+        [ null, { "registryName": "immersiveengineering:connector", "meta": 6 }, null ]
     ],
     "result" : {
       "oredictName" : "componentParachute"
@@ -157,9 +156,9 @@
   },
   {
     "ingredients" : [
-      [ { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" } ],
-      [ { "oredictName" : "gearInvar" }, { "oredictName" : "ingotIron" } ],
-      [ { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" } ]
+      [ { "oredictName" : "plateIron" }, { "oredictName" : "plateIron" } ],
+      [ { "oredictName" : "gearInvar" }, { "oredictName" : "plateIron" } ],
+      [ { "oredictName" : "plateIron" }, { "oredictName" : "plateIron" } ]
     ],
     "result" : {
       "oredictName" : "componentPlatingBasic"
@@ -167,30 +166,12 @@
   },
   {
     "ingredients" : [
-      [ { "oredictName" : "componentPlatingBasic" } ]
-    ],
-    "result" : {
-      "oredictName" : "ingotIron",
-      "quantity" : 5
-    }
-  },
-  {
-    "ingredients" : [
-      [ { "oredictName" : "gemDiamond" }, { "oredictName" : "gemDiamond" } ],
-      [ { "oredictName" : "gearElectrum" }, { "oredictName" : "gemDiamond" } ],
-      [ { "oredictName" : "gemDiamond" }, { "oredictName" : "gemDiamond" } ]
+      [ { "oredictName" : "platePlatinum" }, { "oredictName" : "plateSteel" }, null ],
+      [ { "oredictName" : "gearInvar" },     { "oredictName" : "plateSteel" }, null ],
+      [ { "oredictName" : "platePlatinum" }, { "oredictName" : "plateSteel" }, null ]
     ],
     "result" : {
       "oredictName" : "componentPlatingAdvanced"
-    }
-  },
-  {
-    "ingredients" : [
-      [ { "oredictName" : "componentPlatingAdvanced" } ]
-    ],
-    "result" : {
-      "oredictName" : "gemDiamond",
-      "quantity" : 5
     }
   },
   {
@@ -205,9 +186,9 @@
   },
   {
     "ingredients" : [
-      [ { "oredictName" : "dustGlowstone" }, { "oredictName" : "blockGlass" }, { "oredictName" : "dyeGreen" } ],
-      [ { "oredictName" : "blockGlass" }, { "registryName" : "thermalfoundation:material", "meta" : 515 }, { "oredictName" : "blockGlass" } ],
-      [ { "oredictName" : "dyeBlue" }, { "oredictName" : "blockGlass" }, { "oredictName" : "dyeRed" } ]
+        [ null, {"oredictName": "oc:hologram1"}, null],
+        [ null, {"oredictName": "componentWiring"}, null],
+        [ null, null, null ]
     ],
     "result" : {
       "oredictName" : "componentLaserEmitter"
@@ -278,9 +259,9 @@
   },
   {
     "ingredients" : [
-      [ { "registryName" : "thermalfoundation:material", "meta" : 514 }, { "oredictName" : "componentSolenoid" }, { "registryName" : "thermalfoundation:material", "meta" : 514 } ],
-      [ { "registryName" : "thermalfoundation:rockwool", "meta" : 7 }, { "registryName" : "thermalfoundation:meter" }, { "registryName" : "thermalfoundation:rockwool", "meta" : 7 } ],
-      [ { "registryName" : "thermalfoundation:material", "meta" : 513 }, { "oredictName" : "componentSolenoid" }, { "registryName" : "thermalfoundation:material", "meta" : 515 } ]
+        [ null, null, null ],
+        [ { "oredictName" : "componentWiring" }, { "oredictName": "oc:cpu2" }, { "oredictName" : "componentWiring" } ],
+        [ null, null, null ]
     ],
     "result" : {
       "oredictName" : "componentComputerChip"
