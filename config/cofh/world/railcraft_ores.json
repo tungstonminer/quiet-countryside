@@ -52,7 +52,7 @@
 				"material": "stone",
 				"cluster-size": 1
 			},
-			"cluster-count": 16,
+			"cluster-count": 32,
 			"center-height": 128,
             "spread": 32,
 			"retrogen": false,

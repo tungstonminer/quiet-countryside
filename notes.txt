@@ -2,10 +2,90 @@
 
     1. Unzip the archive
     2. Start Minecraft
-    3. Create a new profile using v1.10.2 which points to the folder the archive expanded into
+    3. Create a new profile using v1.10.2 which points to the folder the expanded archive folder
     4. Launch the game and quit
     5. Run the Forge installer from the archive
     6. Update the new profile to use the Forge-modded version of 1.10.2
+
+
+
+# Getting Started Tips
+
+Be aware of these new game mechanics:
+
+    Thirst              Just like hunger, you can now become thirsty. Carry a full bottle or canteen to drink from and
+                        keep yourself healthy. YOU CANNOT HEAL WHEN THIRSTY OR HUNGRY. However, you heal much more
+                        quickly.
+
+    Temperature         You can now become too hot and too cold. The large globe in the center of your HUD will range
+                        from blue to red to indicate temperature (changing to a snowflake or fire when dangerous). You
+                        can eventually take damage and die from exposure.
+
+    Seasons             A Minecraft year is defined as being 84 Minecraft days long, with each season taking 21 days.
+                        This will cause all the usual changes in temperature, ability to grow crops, precipitation, etc.
+                        Plan your home and travels accordingly.
+
+In addition to the usual things, concentrate on making these items early:
+
+    Lunch Bag:          Using the same bucket recipe with paper will get you a lunch bag. Shift-right-click to open, and
+                        then right-click a chest with food in order to grab food you haven't eaten recently. Upgrade to
+                        a Lunch Box when you have some iron ingots.
+
+    Bottle:             Since thirst is now a real concern, you'll want to make an ordinary bottle early on so you can
+                        drink.  Once you have enough leather, make a Canteen.
+
+    Clay Bucket:        Iron is quite a bit harder to come by in this modpack, but you can make a clay bucket with just
+                        plain clay using the same recipe. Fire the bucket in a furnace, and you're ready to go.
+
+    Tin/Copper Tools:   As mentioned, iron is much harder to come by.  Start with tin or copper tools until you're ready
+                        to smelt bronze.
+
+
+
+# Resource Generation
+
+## Metals
+
+    Aluminum                            40  56      uniform traces with rare, large veins in hot climates
+    Ardite                              0   84      tiny deposits scattered about the Nether
+    Cobalt                              42  128     tiny deposits scattered about the Nether
+    Copper                              0   128     uniform traces with rare, large veins
+    Gold                                8   24      uniform traces with rare, large veins
+    Iron                                96  160     uniform traces with rare, large veins
+    Lead                                16  32      uniform traces with rare, large veins
+    Nickel                                          mixed with large iron veins (see: Iron)
+    Platinum                                        mixed with large iron veins (see: Iron)
+    Silver                                          mixed with large lead veins (see: Lead)
+    Tin                                 16  80      uniform traces with rare, large veins
+    Uranium                             48  256     small clusters evenly scattered
+
+## Minerals
+
+    Coal                                48  64      lots of small clusters
+    Diamond                                         individual crystals under lava beds outside of Jungles
+    Emerald                                         individual crystals under lava beds in Jungles
+    Lapis                                           individual crystals scattered on the ocean floor
+    Quartz                                          stalagmites all over the Nether
+    Redstone                                        mixed with large copper veins (see: Copper)
+    Saltpeter                                       under surface sand in sandy, hot biomes
+
+## Plants & Fossil Fuels
+
+    Oil (sand)                          64  256     medium-sized deposits of oil-soaked sand in deserts
+    Oil (sandy pool)                    32  64      pools of liquid oil in any sandy biome
+    Oil (shale)                                     medium-sized deposits of oil-soaked gravel on the ocean floor
+    Oil (shale pool)                    0   48      pools of liquid oil deep under oceans
+    Rubber Trees                                    any wet biomes (swamps, jungles, ...)
+
+## Stones
+
+    Abyssal Stone                       0   8       large geodes under the ocean
+    Andesite                            96  128     large boulders
+    Chalk                               0   96      large boulders in oceans or plains
+    Diorite                             0   32      large boulders
+    Granite                             32  96      large boulders
+    Lignite (poor coal)                             randomly found in thin strata of enormous breadth
+
 
 
 
@@ -95,58 +175,13 @@
 
 
 
-# Resource Generation
-
-## Metals
-
-    Aluminum                            40  56      uniform traces with rare, large veins in hot climates
-    Ardite                              0   84      tiny deposits scattered about the Nether
-    Cobalt                              42  128     tiny deposits scattered about the Nether
-    Copper                              0   128     uniform traces with rare, large veins
-    Gold                                8   24      uniform traces with rare, large veins
-    Iron                                96  160     uniform traces with rare, large veins
-    Lead                                16  32      uniform traces with rare, large veins
-    Nickel                                          mixed with large iron veins (see: Iron)
-    Platinum                                        mixed with large iron veins (see: Iron)
-    Silver                                          mixed with large lead veins (see: Lead)
-    Tin                                 16  80      uniform traces with rare, large veins
-    Uranium                             48  256     small clusters evenly scattered
-
-## Minerals
-
-    Coal                                48  64      lots of small clusters
-    Diamond                                         individual crystals under lava beds outside of Jungles
-    Emerald                                         individual crystals under lava beds in Jungles
-    Lapis                                           individual crystals scattered on the ocean floor
-    Quartz                                          stalagmites all over the Nether
-    Redstone                                        mixed with large copper veins (see: Copper)
-    Saltpeter                                       under surface sand in sandy, hot biomes
-
-## Plants & Fossil Fuels
-
-    Oil (sand)                          64  256     medium-sized deposits of oil-soaked sand in deserts
-    Oil (sandy pool)                    32  64      pools of liquid oil in any sandy biome
-    Oil (shale)                                     medium-sized deposits of oil-soaked gravel on the ocean floor
-    Oil (shale pool)                    0   48      pools of liquid oil deep under oceans
-    Rubber Trees                                    any wet biomes (swamps, jungles, ...)
-
-## Stones
-
-    Abyssal Stone                       0   8       large geodes under the ocean
-    Andesite                            96  128     large boulders
-    Chalk                               0   96      large boulders in oceans or plains
-    Diorite                             0   32      large boulders
-    Granite                             32  96      large boulders
-    Lignite (poor coal)                             randomly found in thin strata of enormous breadth
-
-
-
 # Customizations
 
-    Minecraft (vanilla)                 hostile mobs won't spawn under the sky (no matter the light level)
+    Minecraft (vanilla)                 hostile mobs only spawn on natural stone in absolute darkness
+                                        spiders only spawn in Dark Oak forests in shadowy areas
                                         villagers have been completely replaced (see: Minecraft Comes Alive)
                                         cows, pigs, and chickens have been replaced (see: Animania)
-                                        Creepers and Endermen can't damage structures
+                                        Creepers and Endermen can't damage structures (/gamerule mobGriefing false)
                                         foods don't satisfy hunger when eaten repeatedly (see: Spice of Life)
 
     DaVinci's Vessels                   airships & submarines disabled, engines w/fuel required
@@ -156,6 +191,8 @@
     Spartan Shields                     fantasy metals disabled (adamant, mithril, etc.)
     Tough as Nails                      initial diminished health disabled
     Wearable Backpacks                  backpacks can be worn over armor (not replacing it)
+
+
 
 # Known Issues
 
