@@ -24,15 +24,15 @@ Be aware of these new game mechanics:
 
     Seasons             A Minecraft year is defined as being 84 Minecraft days long, with each
                         season taking 21 days.
-                        This will cause all the usual changes in temperature, ability to grow crops,
-                        precipitation, etc.  Plan your home and travels accordingly.
+                        This will cause all the usual changes in temperature, ability to grow 
+                        crops, precipitation, etc.  Plan your home and travels accordingly.
 
 In addition to the usual things, concentrate on making these items early:
 
     Lunch Bag:          Using the same bucket recipe with paper will get you a lunch bag. Shift-
-                        right-click to open, and then right-click a chest with food in order to grab
-                        food you haven't eaten recently. Upgrade to a Lunch Box when you have some
-                        iron ingots.
+                        right-click to open, and then right-click a chest with food in order to
+                        grab food you haven't eaten recently. Upgrade to a Lunch Box when you have
+                        some iron ingots.
 
     Bottle:             Since thirst is now a real concern, you'll want to make an ordinary bottle
                         early on so you can drink.  Once you have enough leather, make a Canteen.
@@ -68,7 +68,7 @@ In addition to the usual things, concentrate on making these items early:
     Coal                                48  64      lots of small clusters
     Diamond                                         individual crystals under lava beds
     Emerald                                         individual crystals under lava beds in Jungles
-    Lapis                                           individual crystals scattered on the ocean floor
+    Lapis                                           individual crystals on the ocean floor
     Quartz                                          stalagmites all over the Nether
     Redstone                                        mixed with large copper veins (see: Copper)
     Saltpeter                                       under surface sand in sandy, hot biomes
@@ -97,7 +97,7 @@ In addition to the usual things, concentrate on making these items early:
 
 ## Agriculture
 
-    Agricraft                           extended farming, cross-breeding of plants, growing minerals
+    Agricraft                           extended farming, breeding of plants, growing minerals
     Animania                            multiple breeds of farm animals with different traits
     Pam's HarvestCraft                  adds many varieties of edible plants and dozens of recipes
 
@@ -105,9 +105,9 @@ In addition to the usual things, concentrate on making these items early:
 
     BiblioCraft                         functional storage devices and furniture
     Chisel                              massive amount of new blocks & textures
-    Chisels & Bits                      create 1/16th scale blocks and arrange them any way you like
+    Chisels & Bits                      create 1/16th scale blocks and build miniature things
     Decocraft                           dozens of realistic objects with detailed models
-    Earthworks                          adds lots of natural materials (adobe, thatch, plaster, etc.)
+    Earthworks                          adds lots of natural materials (adobe, thatch, plaster...)
     Forge MultiPart                     create a limited amount of less-than-full-size blocks
     Persistent Bits                     adds a chunk loader
 
@@ -183,13 +183,13 @@ In addition to the usual things, concentrate on making these items early:
 
     Minecraft (vanilla)                 hostile mobs only spawn on natural stone in total darkness
                                         spiders only spawn in Dark Oak forests in shadowy areas
-                                        villagers have been replaced (see: Minecraft Comes Alive)
-                                        cows, pigs, and chickens have been replaced (see: Animania)
+                                        villagers have been replaced (Minecraft Comes Alive)
+                                        cows, pigs, and chickens have been replaced (Animania)
                                         Creepers and Endermen can't damage structures
-                                        foods don't satisfy when eaten again (see: Spice of Life)
+                                        foods don't satisfy when eaten again (Spice of Life)
 
     DaVinci's Vessels                   airships & submarines disabled, engines w/fuel required
-    Modular PowerSuits                  power usage converted to RF units, recipes made much harder
+    Modular PowerSuits                  power usage converted to RF units, recipes made harder
     Pam's Harvestcraft                  gardens disabled, use Agricraft to develop species
     Rope Bridge                         bridges limited to 64m spans
     Spartan Shields                     fantasy metals disabled (adamant, mithril, etc.)
@@ -200,5 +200,5 @@ In addition to the usual things, concentrate on making these items early:
 
 # Known Issues
 
-    Minecraft Comes Alive               occasionally causes crashes when entering a brand new world
+    Minecraft Comes Alive               occasionally causes crashes when entering a new world
     Cooking for Blockheads              tool racks aren't recognized by Cooking Tables, severely
