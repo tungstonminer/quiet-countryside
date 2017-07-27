@@ -4,7 +4,8 @@ TooManyGravesData
 asm
 crash-reports
 fonts
-journeymap
+journeymap/*
+!journeymap/config
 llibrary
 local
 logs
