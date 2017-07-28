@@ -6,6 +6,9 @@
     4. Launch the game and quit
     5. Run the Forge installer from the archive
     6. Update the new profile to use the Forge-modded version of 1.10.2
+    7. Launch the game (it will take a while with this many mods).
+    8. Add a multiplayer server at: qc.crafting-guide.com:25565
+    9. Enjoy!
 
 
 
