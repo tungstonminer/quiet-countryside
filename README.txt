@@ -11,6 +11,21 @@
     9. Enjoy!
 
 
+# Server Rules
+
+    The whole point of playing together is to have fun!  However, with Minecraft being as open as
+    it is, its worth taking a moment to be sure everyone is on the same page about what we consider
+    to be fun. The general aim for this server is to enable people to enjoy building stuff either
+    on their own or together as they like. Here are some particulars about what that means:
+
+      * No uninvited player vs. player combat.
+      * Do not disturb anything which appears to have been made by another player.
+      * Do not build anything within sight of another player's constructions without talking it
+        over with them first.
+      * Make it easy for others to figure out that you made something.
+      * Don't tear up the landscape without making something better out of it.
+
+
 
 # Getting Started Tips
 
