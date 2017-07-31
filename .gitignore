@@ -1,7 +1,9 @@
 .DS_Store
 *.log
+*.swp
 TooManyGravesData
 asm
+backups
 crash-reports
 fonts
 journeymap/*
