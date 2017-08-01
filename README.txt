@@ -225,7 +225,8 @@ In addition to the usual things, concentrate on making these items early:
 
 # Acknowledgements
 
-    The mods in this modpack represent years of cumulative effort on the part of Minecraft enthusiasts from all around the world.  We're grateful for all their dedicate and hard work!
+    The mods in this modpack represent years of cumulative effort on the part of Minecraft
+    enthusiasts from all around the world.  We're grateful for all their dedicate and hard work!
     
     Agricraft                           https://minecraft.curseforge.com/projects/agricraft
     Animania                            https://minecraft.curseforge.com/projects/animania
