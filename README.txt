@@ -14,9 +14,9 @@
 # Server Rules
 
     The whole point of playing together is to have fun!  However, with Minecraft being as open as
-    it is, its worth taking a moment to be sure everyone is on the same page about what we consider
-    to be fun. The general aim for this server is to enable people to enjoy building stuff either
-    on their own or together as they like. Here are some particulars about what that means:
+    it is, its worth taking a moment to be sure everyone is on the same page about what we
+    consider to be fun. The general aim for this server is to enable people to enjoy building stuff
+    either on their own or together as they like. Here are some particulars about what that means:
 
       * No uninvited player vs. player combat.
       * Do not disturb anything which appears to have been made by another player.
@@ -169,7 +169,7 @@ In addition to the usual things, concentrate on making these items early:
     OpenComputers                       create functional, programmable computers & drones
     Redstone Arsenal                    powered tools & armor
     RF Tools                            advanced machines (teleporters, etc.)
-    Steve's Carts                       adds advanced robotic railway cars
+    Steve's Carts Reborn                adds advanced robotic railway cars
     Super Circuit Maker                 build vanilla redstone circuits at tiny scale
     Thermal Dynamics & Expansion        machines & conduits for all purposes
 
@@ -220,3 +220,60 @@ In addition to the usual things, concentrate on making these items early:
 
     Minecraft Comes Alive               occasionally causes crashes when entering a new world
     Cooking for Blockheads              tool racks aren't recognized by Cooking Tables, severely
+
+
+
+# Acknowledgements
+
+    The mods in this modpack represent years of cumulative effort on the part of Minecraft enthusiasts from all around the world.  We're grateful for all their dedicate and hard work!
+    
+    Agricraft                           https://minecraft.curseforge.com/projects/agricraft
+    Animania                            https://minecraft.curseforge.com/projects/animania
+    Pam's HarvestCraft                  https://minecraft.curseforge.com/projects/pams-harvestcraft
+    BiblioCraft                         http://www.bibliocraftmod.com/
+    Chisel 2                            https://minecraft.curseforge.com/projects/chisel
+    Chisels & Bits                      https://minecraft.curseforge.com/projects/chisels-bits
+    Decocraft                           https://minecraft.curseforge.com/projects/decocraft2
+    Earthworks                          https://minecraft.curseforge.com/projects/earthworks
+    Forge MultiPart                     https://minecraft.curseforge.com/projects/forge-multi-part
+    Persistent Bits                     https://minecraft.curseforge.com/projects/persistent-bits
+    Fast Leaf Decay                     https://minecraft.curseforge.com/projects/fast-leaf-decay
+    Minecraft Comes Alive               https://minecraft.curseforge.com/projects/minecraft-comes-alive-mca
+    Morpheus                            https://minecraft.curseforge.com/projects/morpheus
+    Spice of Life                       https://minecraft.curseforge.com/projects/the-spice-of-life
+    Tomb Many Graves                    https://minecraft.curseforge.com/projects/tomb-many-graves
+    Tough As Nails                      https://minecraft.curseforge.com/projects/tough-as-nails
+    Clay Bucket                         https://minecraft.curseforge.com/projects/clay-bucket
+    Cooking For Blockheads              https://minecraft.curseforge.com/projects/cooking-for-blockheads
+    Literal Ascension                   https://minecraft.curseforge.com/projects/literal-ascension
+    Malisis' Doors                      https://minecraft.curseforge.com/projects/malisisdoors
+    Malisis' Switches                   https://minecraft.curseforge.com/projects/malisisswitches
+    Platforms                           https://minecraft.curseforge.com/projects/platforms
+    Rope Bridge                         https://minecraft.curseforge.com/projects/rope-bridge
+    Sleeping Bag                        https://minecraft.curseforge.com/projects/sleeping-bag
+    Spartan Shields                     https://minecraft.curseforge.com/projects/spartan-shields
+    Tinkers' Construct                  https://minecraft.curseforge.com/projects/tinkers-construct
+    Underwater Utilities                https://minecraft.curseforge.com/projects/underwater-utilities
+    Vending Block                       https://minecraft.curseforge.com/projects/vending-block
+    Refined Storage                     https://minecraft.curseforge.com/projects/refined-storage
+    Storage Drawers                     https://minecraft.curseforge.com/projects/storage-drawers
+    Wearable Backpacks                  https://minecraft.curseforge.com/projects/wearable-backpacks
+    ExtremeReactors                     https://minecraft.curseforge.com/projects/extreme-reactors
+    Immersive Engineering               https://minecraft.curseforge.com/projects/immersive-engineering
+    Immersive Petroleum                 https://minecraft.curseforge.com/projects/immersive-petroleum
+    MineFactory Reloaded                https://minecraft.curseforge.com/projects/minefactory-reloaded
+    Modular Powersuits                  http://machinemuse.net/
+    OpenComputers                       http://ocdoc.cil.li/
+    Redstone Arsenal                    https://minecraft.curseforge.com/projects/redstone-arsenal
+    RF Tools                            https://minecraft.curseforge.com/projects/rftools
+    Steve's Carts Reborn                https://minecraft.curseforge.com/projects/steves-carts-reborn
+    Super Circuit Maker                 https://minecraft.curseforge.com/projects/super-circuit-maker
+    Thermal Dynamics & Expansion        http://teamcofh.com/
+    DaVinci's Vessels                   https://minecraft.curseforge.com/projects/davincis-vessels
+    Railcraft                           http://www.railcraft.info/
+    Vies Craft                          https://minecraft.curseforge.com/projects/viescraft-airships
+    Inventory Tweaks                    https://minecraft.curseforge.com/projects/inventory-tweaks
+    Journey Map                         http://journeymap.info/Home
+    Just Enough Items                   https://minecraft.curseforge.com/projects/just-enough-items-jei
+    OptiFine                            https://optifine.net/home
+    What Am I Looking At? (WAILA)       https://minecraft.curseforge.com/projects/waila
