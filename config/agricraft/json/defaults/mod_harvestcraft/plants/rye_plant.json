@@ -6,7 +6,7 @@
   "seed_name": "Rye Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:ryeseedItem",
+      "item": "harvestcraft:ryeseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:ryeItem",
+        "item": "harvestcraft:ryeitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

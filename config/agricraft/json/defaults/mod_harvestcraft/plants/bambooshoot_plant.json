@@ -6,7 +6,7 @@
   "seed_name": "Bamboo Shoot Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:bambooshootseedItem",
+      "item": "harvestcraft:bambooshootseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:bambooshootItem",
+        "item": "harvestcraft:bambooshootitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

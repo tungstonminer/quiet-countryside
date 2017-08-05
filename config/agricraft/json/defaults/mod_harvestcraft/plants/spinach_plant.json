@@ -6,7 +6,7 @@
   "seed_name": "Spinach Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:spinachseedItem",
+      "item": "harvestcraft:spinachseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:spinachItem",
+        "item": "harvestcraft:spinachitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

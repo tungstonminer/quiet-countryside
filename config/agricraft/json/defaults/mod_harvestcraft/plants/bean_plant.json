@@ -6,7 +6,7 @@
   "seed_name": "Bean Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:beanseedItem",
+      "item": "harvestcraft:beanseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:beanItem",
+        "item": "harvestcraft:beanitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

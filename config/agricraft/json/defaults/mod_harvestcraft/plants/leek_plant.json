@@ -6,7 +6,7 @@
   "seed_name": "Leek Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:leekseedItem",
+      "item": "harvestcraft:leekseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:leekItem",
+        "item": "harvestcraft:leekitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

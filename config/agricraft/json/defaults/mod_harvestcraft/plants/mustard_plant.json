@@ -6,7 +6,7 @@
   "seed_name": "Mustard Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:mustardseedItem",
+      "item": "harvestcraft:mustardseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:mustardseedsItem",
+        "item": "harvestcraft:mustardseedsitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

@@ -6,7 +6,7 @@
   "seed_name": "Beet Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:beetseedItem",
+      "item": "harvestcraft:beetseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:beetItem",
+        "item": "harvestcraft:beetitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

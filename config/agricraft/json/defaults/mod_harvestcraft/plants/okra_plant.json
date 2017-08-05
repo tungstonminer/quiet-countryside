@@ -6,7 +6,7 @@
   "seed_name": "Okra Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:okraseedItem",
+      "item": "harvestcraft:okraseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:okraItem",
+        "item": "harvestcraft:okraitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

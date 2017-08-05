@@ -6,7 +6,7 @@
   "seed_name": "Candleberry Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:candleberryseedItem",
+      "item": "harvestcraft:candleberryseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:candleberryItem",
+        "item": "harvestcraft:candleberryitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

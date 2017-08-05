@@ -6,7 +6,7 @@
   "seed_name": "Cantaloupe Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:cantaloupeseedItem",
+      "item": "harvestcraft:cantaloupeseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:cantaloupeItem",
+        "item": "harvestcraft:cantaloupeitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

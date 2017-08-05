@@ -6,7 +6,7 @@
   "seed_name": "Cotton Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:cottonseedItem",
+      "item": "harvestcraft:cottonseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:cottonItem",
+        "item": "harvestcraft:cottonitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

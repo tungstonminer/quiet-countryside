@@ -6,7 +6,7 @@
   "seed_name": "Chili Pepper Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:chilipepperseedItem",
+      "item": "harvestcraft:chilipepperseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:chilipepperItem",
+        "item": "harvestcraft:chilipepperitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

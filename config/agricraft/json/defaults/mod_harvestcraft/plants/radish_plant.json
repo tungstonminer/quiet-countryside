@@ -6,7 +6,7 @@
   "seed_name": "Radish Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:radishseedItem",
+      "item": "harvestcraft:radishseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:radishItem",
+        "item": "harvestcraft:radishitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

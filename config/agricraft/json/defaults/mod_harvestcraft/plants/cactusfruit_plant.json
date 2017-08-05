@@ -6,7 +6,7 @@
   "seed_name": "Cactus Fruit Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:cactusfruitseedItem",
+      "item": "harvestcraft:cactusfruitseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:cactusfruitItem",
+        "item": "harvestcraft:cactusfruititem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

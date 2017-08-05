@@ -6,7 +6,7 @@
   "seed_name": "Kiwi Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:kiwiseedItem",
+      "item": "harvestcraft:kiwiseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:kiwiItem",
+        "item": "harvestcraft:kiwiitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

@@ -6,7 +6,7 @@
   "seed_name": "White Mushroom Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:whitemushroomseedItem",
+      "item": "harvestcraft:whitemushroomseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:whitemushroomItem",
+        "item": "harvestcraft:whitemushroomitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

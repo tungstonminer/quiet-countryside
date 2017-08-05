@@ -6,7 +6,7 @@
   "seed_name": "Bellpepper Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:bellpepperseedItem",
+      "item": "harvestcraft:bellpepperseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:bellpepperItem",
+        "item": "harvestcraft:bellpepperitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

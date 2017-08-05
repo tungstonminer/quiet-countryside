@@ -6,7 +6,7 @@
   "seed_name": "Sweet Potato Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:sweetpotatoseedItem",
+      "item": "harvestcraft:sweetpotatoseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:sweetpotatoItem",
+        "item": "harvestcraft:sweetpotatoitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

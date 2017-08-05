@@ -6,7 +6,7 @@
   "seed_name": "Oats Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:oatsseedItem",
+      "item": "harvestcraft:oatsseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:oatsItem",
+        "item": "harvestcraft:oatsitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
