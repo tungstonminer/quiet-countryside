@@ -57,7 +57,7 @@ function find-running-server-pid {
 }
 
 function find-running-script-pid {
-    ps -ef | grep "/bin/bash.*admin.sh.*$SERVER_NAME" | grep -v grep | awk '{print $2}'
+    ps -ef | grep "admin.sh.*$SERVER_NAME" | grep -v grep | awk '{print $2}'
 }
 
 function require-ops {
@@ -179,6 +179,7 @@ function command-start {
         tail -n 0 -F server.stdin \
             | java -Xms4G -Xmx4G -jar $SERVER_JAR nogui $SERVER_NAME \
             >> logs/server.log 2>&1 &
+        disown
 
         sleep 10
 
@@ -205,7 +206,6 @@ function command-start {
         sleep 1
     done
 
-    disown $PID
 
     PORT=$(cat "server/server.properties" | grep server-port | cut -d= -f2)
     echo "Server started on port $PORT after $ATTEMPTS seconds"
