@@ -152,20 +152,22 @@ function command-start {
 
     PID=$(find-running-script-pid)
     if [[ "$PID" != "" ]]; then
+        echo "[$(date)] Already running script" >> server/logs/server.log
         exit 0
     fi
 
     PID=$(find-running-server-pid)
     if [[ "$PID" != "" ]]; then
+        echo "[$(date)] Already running server" >> server/logs/server.log
         exit 0
     fi
 
+    echo "[$(date)] No server running..."
     pushd "server" &>/dev/null
 
-        rm -rf logs/* &>/dev/null
         mkdir -p logs
 
-        echo "Starting server..."
+        echo "[$(date)] Starting server..."
         printf "Starting Minecraft Server with properties:\n\n$(cat server.properties)\n\n" >> logs/server.log
 
         rm "ops.json" &>/dev/null
@@ -208,28 +210,28 @@ function command-start {
 
 
     PORT=$(cat "server/server.properties" | grep server-port | cut -d= -f2)
-    echo "Server started on port $PORT after $ATTEMPTS seconds"
-    echo "Input at: server/server.stdin"
-    echo "Logs at: server/logs/server.log"
+    echo "[$(date)] Server started on port $PORT after $ATTEMPTS seconds"
+    echo "[$(date)] Input at: server/server.stdin"
+    echo "[$(date)] Logs at: server/logs/server.log"
     echo ""
 }
 
 function command-status {
     PID=$(find-running-server-pid)
     if [[ "$PID" == "" ]]; then
-        printf "No server is running for $SERVER_NAME\n\n"
+        printf "[$(date)] No server is running for $SERVER_NAME\n\n"
     else
         PORT=$(cat "server/server.properties" | grep server-port | cut -d= -f2)
-        printf "Server for $SERVER_NAME is runnning on port $PORT\n\n"
+        printf "[$(date)] Server for $SERVER_NAME is runnning on port $PORT\n\n"
     fi
 }
 
 function command-stop {
     PID=$(find-running-server-pid)
     if [[ "$PID" == "" ]]; then
-        printf "No server running.\n\n"
+        printf "[$(date)] No server running.\n\n"
     else
-        printf "Stopping server...\n"
+        printf "[$(date)] Stopping server...\n"
         (( COUNT = DELAY ))
         echo "/say Server going down in $COUNT seconds..." >> "server/server.stdin"
         while [[ $COUNT -gt 0 ]]; do
@@ -243,7 +245,7 @@ function command-stop {
             PID=$(find-running-server-pid)
             if [[ "$PID" == "" ]]; then
                 rm "server/server.stdin" &>/dev/null
-                printf "Server stopped\n\n"
+                printf "[$(date)] Server stopped\n\n"
                 return
             fi
 
@@ -259,15 +261,17 @@ DELAY=10
 SERVER_NAME=$(basename $PWD)
 
 case $COMMAND in
-    -h)      usage;;
-    backup)  command-backup;;
-    client)  command-installer;;
-    create)  command-create;;
-    delete)  command-delete;;
-    restart) command-restart;;
-    start)   command-start;;
-    status)  command-status;;
-    stop)    command-stop;;
-    *)       cancel "Unrecognized command: $COMMAND"
+    -h)         usage;;
+    backup)     command-backup;;
+    client)     command-installer;;
+    create)     command-create;;
+    delete)     command-delete;;
+    restart)    command-restart;;
+    script-pid) find-running-script-pid;;
+    server-pid) find-running-server-pid;;
+    start)      command-start;;
+    status)     command-status;;
+    stop)       command-stop;;
+    *)          cancel "Unrecognized command: $COMMAND"
 esac
 

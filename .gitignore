@@ -5,7 +5,10 @@ TooManyGravesData
 asm
 backups
 crash-reports
+config/agricraft/json/server_*
+config/chiselsandbits_clipboard.cfg
 fonts
+installers
 journeymap/*
 !journeymap/config
 llibrary
@@ -14,6 +17,7 @@ logs
 mods.disabled
 resourcepacks
 saves
+screenshots
 scripts
 server
 usercache.json
