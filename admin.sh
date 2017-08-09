@@ -57,7 +57,7 @@ function find-running-server-pid {
 }
 
 function find-running-script-pid {
-    ps -ef | grep "admin.sh.*$SERVER_NAME" | grep -v grep | awk '{print $2}'
+    ps -ef | grep "bash.*$(basename $0)" | grep -v grep | grep -v $$ | awk '{print $2}'
 }
 
 function require-ops {
