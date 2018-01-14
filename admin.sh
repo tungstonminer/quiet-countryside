@@ -68,7 +68,7 @@ function require-players {
     [[ -e ../players.txt ]] || cancel "No players.txt file was found."
 }
 
-function server-do {
+function server-cmd {
     echo $* > server/server.stdin
 }
 
@@ -269,6 +269,7 @@ case $COMMAND in
     restart)    command-restart;;
     script-pid) find-running-script-pid;;
     server-pid) find-running-server-pid;;
+    server-cmd) server-cmd;;
     start)      command-start;;
     status)     command-status;;
     stop)       command-stop;;
