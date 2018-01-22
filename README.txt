@@ -42,8 +42,11 @@ Be aware of these new game mechanics:
 
     Seasons             A Minecraft year is defined as being 84 Minecraft days long, with each
                         season taking 21 days.
-                        This will cause all the usual changes in temperature, ability to grow 
+                        This will cause all the usual changes in temperature, ability to grow
                         crops, precipitation, etc.  Plan your home and travels accordingly.
+
+    Carrying            You can shift-right-click animals and chests to pick them up. This will
+                        slow you down a bit, and then you can right-click the ground to drop it.
 
 In addition to the usual things, concentrate on making these items early:
 
@@ -124,13 +127,15 @@ In addition to the usual things, concentrate on making these items early:
     BiblioCraft                         functional storage devices and furniture
     Chisel                              massive amount of new blocks & textures
     Chisels & Bits                      create 1/16th scale blocks and build miniature things
+    Flat-Colored Blocks                 adds simple-colored blocks for use with Chisels & Bits
     Decocraft                           dozens of realistic objects with detailed models
     Earthworks                          adds lots of natural materials (adobe, thatch, plaster...)
     Forge MultiPart                     create a limited amount of less-than-full-size blocks
-    Persistent Bits                     adds a chunk loader
 
 ## Gameplay
 
+    Carry On                            pick up chests and animals to carry them around
+    Chicken Chunks                      adds a chunk loader
     Fast Leaf Decay                     speed up how quickly leaves vanish when a tree is cut down
     Minecraft Comes Alive               replaces vanilla villagers with much more interactive ones
     Morpheus                            allow group voting on when to sleep
@@ -150,6 +155,7 @@ In addition to the usual things, concentrate on making these items early:
     Sleeping Bag                        create a sleeping bag to pass the night on the go
     Spartan Shields                     create a variety of shields of varying strength
     Tinkers' Construct                  customizable tools and metal smelting
+    TorchMaster                         keep mobs at bay with special torch placement tools
     Underwater Utilities                adds SCUBA gear and oxygen replenishment
     Vending Block                       adds a safe way for players to trade items
 
@@ -227,54 +233,54 @@ In addition to the usual things, concentrate on making these items early:
 
     The mods in this modpack represent years of cumulative effort on the part of Minecraft
     enthusiasts from all around the world.  We're grateful for all their dedicate and hard work!
-    
+
     Agricraft                           https://minecraft.curseforge.com/projects/agricraft
     Animania                            https://minecraft.curseforge.com/projects/animania
-    Pam's HarvestCraft                  https://minecraft.curseforge.com/projects/pams-harvestcraft
     BiblioCraft                         http://www.bibliocraftmod.com/
+    Carry On                            https://minecraft.curseforge.com/projects/carry-on
+    Chicken Chunks                      https://minecraft.curseforge.com/projects/chicken-chunks-1-8
     Chisel 2                            https://minecraft.curseforge.com/projects/chisel
     Chisels & Bits                      https://minecraft.curseforge.com/projects/chisels-bits
-    Decocraft                           https://minecraft.curseforge.com/projects/decocraft2
-    Earthworks                          https://minecraft.curseforge.com/projects/earthworks
-    Forge MultiPart                     https://minecraft.curseforge.com/projects/forge-multi-part
-    Persistent Bits                     https://minecraft.curseforge.com/projects/persistent-bits
-    Fast Leaf Decay                     https://minecraft.curseforge.com/projects/fast-leaf-decay
-    Minecraft Comes Alive               https://minecraft.curseforge.com/projects/minecraft-comes-alive-mca
-    Morpheus                            https://minecraft.curseforge.com/projects/morpheus
-    Spice of Life                       https://minecraft.curseforge.com/projects/the-spice-of-life
-    Tomb Many Graves                    https://minecraft.curseforge.com/projects/tomb-many-graves
-    Tough As Nails                      https://minecraft.curseforge.com/projects/tough-as-nails
     Clay Bucket                         https://minecraft.curseforge.com/projects/clay-bucket
     Cooking For Blockheads              https://minecraft.curseforge.com/projects/cooking-for-blockheads
-    Literal Ascension                   https://minecraft.curseforge.com/projects/literal-ascension
-    Malisis' Doors                      https://minecraft.curseforge.com/projects/malisisdoors
-    Malisis' Switches                   https://minecraft.curseforge.com/projects/malisisswitches
-    Platforms                           https://minecraft.curseforge.com/projects/platforms
-    Rope Bridge                         https://minecraft.curseforge.com/projects/rope-bridge
-    Sleeping Bag                        https://minecraft.curseforge.com/projects/sleeping-bag
-    Spartan Shields                     https://minecraft.curseforge.com/projects/spartan-shields
-    Tinkers' Construct                  https://minecraft.curseforge.com/projects/tinkers-construct
-    Underwater Utilities                https://minecraft.curseforge.com/projects/underwater-utilities
-    Vending Block                       https://minecraft.curseforge.com/projects/vending-block
-    Refined Storage                     https://minecraft.curseforge.com/projects/refined-storage
-    Storage Drawers                     https://minecraft.curseforge.com/projects/storage-drawers
-    Wearable Backpacks                  https://minecraft.curseforge.com/projects/wearable-backpacks
+    DaVinci's Vessels                   https://minecraft.curseforge.com/projects/davincis-vessels
+    Decocraft                           https://minecraft.curseforge.com/projects/decocraft2
+    Earthworks                          https://minecraft.curseforge.com/projects/earthworks
     ExtremeReactors                     https://minecraft.curseforge.com/projects/extreme-reactors
+    Fast Leaf Decay                     https://minecraft.curseforge.com/projects/fast-leaf-decay
+    Flat Colored Blocks                 https://minecraft.curseforge.com/projects/flat-colored-blocks
+    Forge MultiPart                     https://minecraft.curseforge.com/projects/forge-multi-part
     Immersive Engineering               https://minecraft.curseforge.com/projects/immersive-engineering
     Immersive Petroleum                 https://minecraft.curseforge.com/projects/immersive-petroleum
-    MineFactory Reloaded                https://minecraft.curseforge.com/projects/minefactory-reloaded
-    Modular Powersuits                  http://machinemuse.net/
-    OpenComputers                       http://ocdoc.cil.li/
-    Redstone Arsenal                    https://minecraft.curseforge.com/projects/redstone-arsenal
-    RF Tools                            https://minecraft.curseforge.com/projects/rftools
-    Steve's Carts Reborn                https://minecraft.curseforge.com/projects/steves-carts-reborn
-    Super Circuit Maker                 https://minecraft.curseforge.com/projects/super-circuit-maker
-    Thermal Dynamics & Expansion        http://teamcofh.com/
-    DaVinci's Vessels                   https://minecraft.curseforge.com/projects/davincis-vessels
-    Railcraft                           http://www.railcraft.info/
-    Vies Craft                          https://minecraft.curseforge.com/projects/viescraft-airships
     Inventory Tweaks                    https://minecraft.curseforge.com/projects/inventory-tweaks
     Journey Map                         http://journeymap.info/Home
     Just Enough Items                   https://minecraft.curseforge.com/projects/just-enough-items-jei
+    Literal Ascension                   https://minecraft.curseforge.com/projects/literal-ascension
+    MineFactory Reloaded                https://minecraft.curseforge.com/projects/minefactory-reloaded
+    Modular Powersuits                  http://machinemuse.net/
+    Morpheus                            https://minecraft.curseforge.com/projects/morpheus
+    OpenComputers                       http://ocdoc.cil.li/
     OptiFine                            https://optifine.net/home
+    Pam's HarvestCraft                  https://minecraft.curseforge.com/projects/pams-harvestcraft
+    Platforms                           https://minecraft.curseforge.com/projects/platforms
+    RF Tools                            https://minecraft.curseforge.com/projects/rftools
+    Railcraft                           http://www.railcraft.info/
+    Redstone Arsenal                    https://minecraft.curseforge.com/projects/redstone-arsenal
+    Refined Storage                     https://minecraft.curseforge.com/projects/refined-storage
+    Rope Bridge                         https://minecraft.curseforge.com/projects/rope-bridge
+    Sleeping Bag                        https://minecraft.curseforge.com/projects/sleeping-bag
+    Spartan Shields                     https://minecraft.curseforge.com/projects/spartan-shields
+    Spice of Life                       https://minecraft.curseforge.com/projects/the-spice-of-life
+    Steve's Carts Reborn                https://minecraft.curseforge.com/projects/steves-carts-reborn
+    Storage Drawers                     https://minecraft.curseforge.com/projects/storage-drawers
+    Super Circuit Maker                 https://minecraft.curseforge.com/projects/super-circuit-maker
+    Thermal Dynamics & Expansion        http://teamcofh.com/
+    Tinkers' Construct                  https://minecraft.curseforge.com/projects/tinkers-construct
+    Tomb Many Graves                    https://minecraft.curseforge.com/projects/tomb-many-graves
+    TorchMaster                         https://minecraft.curseforge.com/projects/torchmaster
+    Tough As Nails                      https://minecraft.curseforge.com/projects/tough-as-nails
+    Underwater Utilities                https://minecraft.curseforge.com/projects/underwater-utilities
+    Vending Block                       https://minecraft.curseforge.com/projects/vending-block
+    Vies Craft                          https://minecraft.curseforge.com/projects/viescraft-airships
+    Wearable Backpacks                  https://minecraft.curseforge.com/projects/wearable-backpacks
     What Am I Looking At? (WAILA)       https://minecraft.curseforge.com/projects/waila
