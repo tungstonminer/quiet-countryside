@@ -1,5 +1,6 @@
 !journeymap/config
 *.corrupt.*
+*.dylib
 *.log
 *.swp
 .DS_Store
