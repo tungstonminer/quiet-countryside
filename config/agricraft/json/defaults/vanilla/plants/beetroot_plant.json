@@ -1,9 +1,9 @@
 {
-  "path": "vanilla/plants/beet_plant.json",
+  "path": "vanilla/plants/beetroot_plant.json",
   "enabled": true,
-  "id": "beet_plant",
-  "plant_name": "Beets",
-  "seed_name": "Beet Seeds",
+  "id": "beetroot_plant",
+  "plant_name": "Beetroot",
+  "seed_name": "",
   "seed_items": [
     {
       "item": "minecraft:beetroot_seeds",
