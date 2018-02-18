@@ -204,6 +204,10 @@ function command-start {
         PID=$(find-running-server-pid)
         [[ "$PID" != "" ]] && STOP="YES"
 
+        if [[ $ATTEMPTS -gt 60 ]]; then
+            echo "Failed to start server after 60 seconds"
+            exit 1
+        fi
         (( ATTEMPTS = ATTEMPTS + 1 ))
         sleep 1
     done
