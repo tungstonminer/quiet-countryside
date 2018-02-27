@@ -53,7 +53,7 @@ function cancel {
 
 function find-running-server-pid {
     PORT=$(cat server/server.properties | grep server-port | cut -d= -f2)
-    lsof -i -n | grep $PORT | grep LISTEN | awk '{print $2}'
+    lsof -i -n 2>/dev/null | grep $PORT | grep LISTEN | awk '{print $2}'
 }
 
 function find-running-script-pid {
@@ -179,7 +179,7 @@ function command-start {
         SERVER_JAR=$(ls forge*universal.jar | tail -n1)
 
         tail -n 0 -F server.stdin \
-            | java -Xms4G -Xmx4G -jar $SERVER_JAR nogui $SERVER_NAME \
+            | java -Xms4G -Xmx4G -jar $SERVER_JAR $SERVER_NAME \
             >> logs/server.log 2>&1 &
         disown
 
