@@ -1,6 +1,10 @@
 #Inventory Tweaks Configuration
 #(Regarding shortcuts, all key names can be found at: http://www.lwjgl.org/javadoc/org/lwjgl/input/Keyboard.html)
+<<<<<<< HEAD
+#Sat Feb 17 22:20:07 MST 2018
+=======
 #Sun Mar 04 09:52:09 MST 2018
+>>>>>>> Add CraftTweaker script to fix recipes
 enableMiddleClick=true
 showChestButtons=true
 enableSortingOnPickup=false

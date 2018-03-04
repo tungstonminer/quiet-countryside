@@ -88,6 +88,12 @@ key_cfg.keybind.Volume:0
 key_cfg.keybind.LightLevel:65
 key_cfg.keybind.ChunkBorders:67
 key_nei.options.keys.gui.filters:43
+key_key.davincis.up:45
+key_key.davincis.down:44
+key_key.davincis.brake:46
+key_key.davincis.align:13
+key_key.davincis.decompile:43
+key_key.davincis.shipinv:37
 key_Open MPS Keybind GUI:-1
 key_Go Down (MPS Flight Control):42
 key_Cycle Tool Backward (MPS):0
@@ -173,7 +179,7 @@ key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
 key_keybind.railcraft.loco.mode:50:ALT
 key_keybind.railcraft.loco.whistle:49:ALT
-soundCategory_master:0.5
+soundCategory_master:0.33443707
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
