@@ -1,7 +1,7 @@
 var colorpalette={
   "version": 5.3,
   "name": "JourneyMap Color Palette",
-  "generated": "Generated using JourneyMap 1.10.2-5.4.7 for 1.10.2 on Sun Mar 04 09:54:08 MST 2018",
+  "generated": "Generated using JourneyMap 1.10.2-5.4.7 for 1.10.2 on Sun Mar 04 14:31:09 MST 2018",
   "description": [
     "This file can be used to keep map colors consistent when changing resource packs.",
     "Edit at your own risk. You can view it using the colorpalette.html file.",
@@ -7936,7 +7936,7 @@ var colorpalette={
     {
       "uid": "earthworks:block_adobe",
       "name": "Adobe",
-      "color": "#b6997f",
+      "color": "#b4957b",
       "alpha": 1.0,
       "meta": 0
     },
@@ -7975,6 +7975,10 @@ var colorpalette={
       "alpha": 1.0,
       "meta": 5,
       "variants": [
+        {
+          "color": "#887c67",
+          "meta": 2
+        },
         {
           "color": "#87785d",
           "meta": 3
@@ -8081,7 +8085,7 @@ var colorpalette={
     {
       "uid": "earthworks:block_plaster",
       "name": "Lath and Plaster",
-      "color": "#cfc7b5",
+      "color": "#cdc5b3",
       "alpha": 1.0,
       "meta": 0
     },
@@ -20781,11 +20785,11 @@ var colorpalette={
       "meta": 9,
       "variants": [
         {
-          "color": "#7b705e",
-          "meta": 3
+          "color": "#786d5b",
+          "meta": 4
         },
         {
-          "color": "#786d5b",
+          "color": "#7b705e",
           "meta": 5
         },
         {

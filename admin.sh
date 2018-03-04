@@ -88,6 +88,7 @@ function command-installer {
         $SERVER_NAME/config \
         $SERVER_NAME/journeymap/config \
         $SERVER_NAME/mods \
+        $SERVER_NAME/scripts \
         $SERVER_NAME/*.txt \
         $SERVER_NAME/forge-*-installer.jar
     popd >/dev/null

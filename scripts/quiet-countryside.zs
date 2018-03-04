@@ -41,6 +41,7 @@ val oreIce               = <ore:blockIce>;
 val oreLeather           = <ore:leather>;
 val oreQuartz            = <ore:gemQuartz>;
 val orePackedIce         = <ore:blockPackedIce>;
+val oreWax               = <ore:materialPressedWax>;
 val oreRodStone          = <ore:rodStone>;
 val oreRubber            = <ore:itemRawRubber>;
 val oreSeedBeet          = <ore:seedBeet>;
@@ -109,6 +110,7 @@ recipes.addShaped(Torch * 4, [[oreCoal], [oreStickWood]]);
 recipes.addShaped(Torch * 3, [[oreRubber], [oreStickWood]]);
 recipes.addShaped(Torch * 3, [[Rosin], [oreStickWood]]);
 recipes.addShaped(Torch * 2, [[oreCharcoal], [oreStickWood]]);
+recipes.addShaped(Torch * 2, [[oreWax], [oreStickWood]]);
 recipes.addShaped(Torch * 1, [[oreSugarCharcoal], [oreStickWood]]);
 
 
