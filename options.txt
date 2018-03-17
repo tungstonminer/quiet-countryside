@@ -82,12 +82,12 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_of.key.zoom:0
+key_presets.cfg.keybind.Presets:25
 key_cfg.keybind.SelectionBox:66
 key_cfg.keybind.Volume:0
 key_cfg.keybind.LightLevel:65
 key_cfg.keybind.ChunkBorders:67
-key_presets.cfg.keybind.Presets:25
-key_nei.options.keys.gui.filters:0
+key_nei.options.keys.gui.filters:43
 key_key.davincis.up:45
 key_key.davincis.down:44
 key_key.davincis.brake:46
@@ -114,6 +114,7 @@ key_key.jei.showRecipe:19
 key_key.jei.showUses:22
 key_key.jei.recipeBack:14
 key_key.jei.toggleCheatMode:0
+key_key.carry.desc:54
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -141,9 +142,13 @@ key_mod.chiselsandbits.other.pickbit:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
-key_key.cofh.multimode:0
+key_key.cofh.multimode:38
 key_keybinding.extrabitmanipulation.design:0
 key_keybinding.extrabitmanipulation.throw.bit:0
+key_keybinding.extrabitmanipulation.throw.bit.bitbag:21
+key_keybinding.extrabitmanipulation.chiseledarmor.main:34
+key_keybinding.extrabitmanipulation.chiseledarmor.vanity:34:SHIFT
+key_keybinding.extrabitmanipulation.chiseledarmor.slots:35
 key_keybinding.extrabitmanipulation.bitmapping:0
 key_keybinding.extrabitmanipulation.shift:0
 key_keybinding.extrabitmanipulation.control:0
@@ -174,7 +179,7 @@ key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
 key_keybind.railcraft.loco.mode:50:ALT
 key_keybind.railcraft.loco.whistle:49:ALT
-soundCategory_master:0.5
+soundCategory_master:0.33443707
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

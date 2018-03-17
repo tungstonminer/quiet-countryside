@@ -53,7 +53,7 @@ function cancel {
 
 function find-running-server-pid {
     PORT=$(cat server/server.properties | grep server-port | cut -d= -f2)
-    lsof -i -n | grep $PORT | grep LISTEN | awk '{print $2}'
+    lsof -i -n 2>/dev/null | grep $PORT | grep LISTEN | awk '{print $2}'
 }
 
 function find-running-script-pid {
@@ -88,6 +88,7 @@ function command-installer {
         $SERVER_NAME/config \
         $SERVER_NAME/journeymap/config \
         $SERVER_NAME/mods \
+        $SERVER_NAME/scripts \
         $SERVER_NAME/*.txt \
         $SERVER_NAME/forge-*-installer.jar
     popd >/dev/null
@@ -131,6 +132,7 @@ function command-create {
     rm -rf mods
     ln -s ../config .
     ln -s ../mods .
+    ls -s ../scripts .
     echo "eula=true" > eula.txt
 
     mkdir logs
@@ -179,7 +181,7 @@ function command-start {
         SERVER_JAR=$(ls forge*universal.jar | tail -n1)
 
         tail -n 0 -F server.stdin \
-            | java -Xms4G -Xmx4G -jar $SERVER_JAR nogui $SERVER_NAME \
+            | java -Xms4G -Xmx4G -jar $SERVER_JAR $SERVER_NAME \
             >> logs/server.log 2>&1 &
         disown
 
@@ -204,6 +206,10 @@ function command-start {
         PID=$(find-running-server-pid)
         [[ "$PID" != "" ]] && STOP="YES"
 
+        if [[ $ATTEMPTS -gt 60 ]]; then
+            echo "Failed to start server after 60 seconds"
+            exit 1
+        fi
         (( ATTEMPTS = ATTEMPTS + 1 ))
         sleep 1
     done
