@@ -23,7 +23,7 @@
   "products": {
     "products": [
       {
-        "min": 1,
+        "min": 0,
         "max": 1,
         "chance": 0.8,
         "required": true,

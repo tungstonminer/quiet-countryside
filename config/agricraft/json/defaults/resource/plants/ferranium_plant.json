@@ -23,12 +23,12 @@
   "products": {
     "products": [
       {
-        "min": 1,
+        "min": 0,
         "max": 2,
         "chance": 0.95,
         "required": true,
-        "item": "minecraft:iron_ingot",
-        "meta": 0,
+        "item": "agricraft:agri_nugget",
+        "meta": 3,
         "tags": "",
         "ignoreMeta": false,
         "ignoreTags": [],

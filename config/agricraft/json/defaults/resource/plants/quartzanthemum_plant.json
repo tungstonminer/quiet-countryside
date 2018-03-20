@@ -23,12 +23,12 @@
   "products": {
     "products": [
       {
-        "min": 1,
-        "max": 5,
-        "chance": 0.875,
+        "min": 0,
+        "max": 3,
+        "chance": 0.80,
         "required": true,
-        "item": "minecraft:quartz",
-        "meta": 0,
+        "item": "agricraft:agri_nugget",
+        "meta": 2,
         "tags": "",
         "ignoreMeta": false,
         "ignoreTags": [],

@@ -23,8 +23,8 @@
   "products": {
     "products": [
       {
-        "min": 1,
-        "max": 5,
+        "min": 0,
+        "max": 3,
         "chance": 0.9,
         "required": true,
         "item": "minecraft:redstone",
